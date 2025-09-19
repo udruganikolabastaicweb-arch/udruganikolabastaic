@@ -37,11 +37,12 @@ body {
 }
 
 .content h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 2rem; /* razmak ispod naslova */
 }
 
 .content h2 {
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -68,10 +69,13 @@ a:hover {
 /* Responsivnost */
 @media (max-width: 768px) {
   .content h1 {
+    font-size: 3rem;
+  }
+  .content h2 {
     font-size: 2rem;
   }
   .content p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   body {
     background-position: center top; /* pomak slike prema gore */
@@ -80,12 +84,16 @@ a:hover {
 
 @media (max-width: 480px) {
   .content h1 {
-    font-size: 1.5rem;
+    font-size: 3rem;
+  }
+  .content h2 {
+    font-size: 2rem;
   }
   .content p {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
   body {
-    background-position: center 20%; /* lagani pomak za mobitele */
+    background-position: center 30%; /* lagani pomak za mobitele */
   }
 }
+
