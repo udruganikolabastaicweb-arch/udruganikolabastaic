@@ -93,8 +93,9 @@ a:hover {
     font-size: 1.2rem;
   }
   body {
-    background-position: center 50%; /* lagani pomak za mobitele */
+    background-position: 60% 30%; /* lagani pomak za mobitele */
   }
 }
+
 
 
