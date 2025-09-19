@@ -14,8 +14,10 @@ body {
   justify-content: center;
   text-align: center;
   color: white;
-  background: url('../img/Udruga-Nikola-Bastaic-cooming-soon.webp') no-repeat center center/cover;
-  position: relative;
+  background-image: url('../img/Udruga-Nikola-Bastaic-cooming-soon.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 /* Lagano zatamnjenje pozadine */
@@ -96,6 +98,7 @@ a:hover {
     background-position: 60% 30%; /* lagani pomak za mobitele */
   }
 }
+
 
 
 
